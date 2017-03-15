@@ -1,5 +1,7 @@
 #@ngrk-books
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/ngrx-books.svg)](https://greenkeeper.io/)
+
 Example application utilizing @ngrx libraries, showcasing common patterns and best practices.
 Take a look at the [live app](http://ngrx-books.npmstack.com).
 
