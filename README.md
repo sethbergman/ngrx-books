@@ -1,16 +1,10 @@
-#@ngrk-books
+# ngrx-books
 
 Example application utilizing @ngrx libraries, showcasing common patterns and best practices.
-Take a look at the [live app](http://ngrx-books.npmstack.com).
 
-This app is a book collection manager. Using the Google Books API, the user can search for
-books and add them to their collection. This application utilizes [@ngrx/db](https://github.com/ngrx/db)
-to persist the collection across sessions; [@ngrx/store](https://github.com/ngrx/store) to manage
-the state of the app and to cache requests made to the Google Books API;
-[@angular/router](https://github.com/angular/angular) to manage navigation between routes;
-[@ngrx/effects](https://github.com/ngrx/effects) to isolate side effects.
+**Take a look at the [live app](http://ngrx-books.npmstack.com).**
 
-Built with [@angular/cli](https://github.com/angular/angular-cli)
+This app is a book collection manager. Using the Google Books API, the user can search for books and add them to their collection.
 
 ### Included
  - [ngrx/store](https://github.com/ngrx/store) - RxJS powered state management for Angular apps, inspired by Redux
