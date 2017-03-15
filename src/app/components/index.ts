@@ -13,6 +13,7 @@ import { LayoutComponent } from './layout';
 import { NavItemComponent } from './nav-item';
 import { SidenavComponent } from './sidenav';
 import { ToolbarComponent } from './toolbar';
+import { AuthComponent } from './auth';
 
 import { PipesModule } from '../pipes';
 
@@ -27,6 +28,7 @@ export const COMPONENTS = [
   NavItemComponent,
   SidenavComponent,
   ToolbarComponent,
+  AuthComponent,
 ];
 
 

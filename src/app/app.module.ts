@@ -14,7 +14,6 @@ import { ComponentsModule } from './components';
 import { BookEffects } from './effects/book';
 import { CollectionEffects } from './effects/collection';
 import { BookExistsGuard } from './guards/book-exists';
-
 import { AppComponent } from './containers/app';
 import { FindBookPageComponent } from './containers/find-book-page';
 import { ViewBookPageComponent } from './containers/view-book-page';
@@ -23,6 +22,7 @@ import { CollectionPageComponent } from './containers/collection-page';
 import { NotFoundPageComponent } from './containers/not-found-page';
 
 import { GoogleBooksService } from './services/google-books';
+import { AuthService } from './services/auth';
 
 import { routes } from './routes';
 import { reducer } from './reducers';
@@ -90,7 +90,8 @@ import { schema } from './db';
   ],
   providers: [
     BookExistsGuard,
-    GoogleBooksService
+    GoogleBooksService,
+    AuthService
   ],
   bootstrap: [
     AppComponent
