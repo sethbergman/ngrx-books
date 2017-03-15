@@ -11,7 +11,7 @@
     "e2e": "ng e2e",
     "build": "ng build --prod",
     "prebuild": "npm install -g http-server",
-    "postbuild": "ng build --prod",
+    "postbuild": "npm start",
     "start": "http-server -p '5000' -a '0.0.0.0' dist/"
   },
   "repository": {
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/sethbergman/ngrx-books/issues"
   },
-  "homepage": "http://ngrx-books.npmstack.com",
+  "homepage": "http://ngrxdev.npmstack.com",
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"

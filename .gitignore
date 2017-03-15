@@ -1,7 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output - add #/dist on line 4 for production deploys
-/dist
+# /dist
 /tmp
 
 # dependencies
