@@ -1,6 +1,6 @@
 # ngrx-books
 
-Example application utilizing @ngrx libraries, showcasing common patterns and best practices.
+This example application utilizes @ngrx libraries, while showcasing common patterns and best practices.
 
 **Take a look at the [live app](http://ngrx-books.npmstack.com).**
 
