@@ -57,7 +57,12 @@ export class CollectionEffects {
       this.db.insert('books', [ book ])
         .map(() => new collection.AddBookSuccessAction(book))
         .catch(() => of(new collection.AddBookFailAction(book)))
-    );
+        .switchMap(() =>
+          this.db.query('books')
+            .toArray()
+            .map((books: Book[]) => new collection.LoadSuccessAction(books))
+    )
+  );
 
 
   @Effect()

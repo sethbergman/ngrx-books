@@ -28,7 +28,9 @@ export class AddBookAction implements Action {
 export class AddBookSuccessAction implements Action {
   type = ActionTypes.ADD_BOOK_SUCCESS;
 
-  constructor(public payload: Book) { }
+  constructor(public payload: Book) {
+    
+   }
 }
 
 export class AddBookFailAction implements Action {

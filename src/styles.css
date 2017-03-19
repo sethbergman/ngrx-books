@@ -10,3 +10,13 @@ html {
   -ms-overflow-style: none;
   overflow: auto;
 }
+@media screen (max-width: 600px)
+.mat-card {
+    padding: 24px;
+}
+
+@media screen and (-ms-high-contrast:active) {
+    .mat-option-ripple {
+        opacity: .5
+    }
+}

@@ -12,9 +12,11 @@ import { Book } from '../models/book';
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <md-card>
-      <md-card-title>My Collection</md-card-title>
+      <md-card-title routerLink="/">
+        My Books Collection
+      </md-card-title>
     </md-card>
-
+    <router-outlet></router-outlet>
     <bc-book-preview-list [books]="books$ | async"></bc-book-preview-list>
   `,
   /**
