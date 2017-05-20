@@ -1,0 +1,20 @@
+{
+  "name": "sample-application-flow-oauth2-project",
+  "version": "1.0.0",
+  "description": "This is an example of using OAuth2 Application Flow in a specification to describe security to your API.",
+  "main": "index.js",
+  "scripts": {
+	"prestart": "npm install",
+	"start": "node index.js"
+  },  
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "swagger-tools": "0.10.1"
+  }
+}
