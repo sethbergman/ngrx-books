@@ -12,7 +12,9 @@
     "build": "ng build --prod",
     "prebuild": "npm install -g http-server",
     "postbuild": "ng build --prod",
-    "start": "http-server -p '5000' -a '0.0.0.0' dist/"
+    "start": "http-server -p '5000' -a '0.0.0.0' dist/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -56,7 +58,8 @@
     "rxjs": "^5.1.0",
     "ts-helpers": "^1.1.1",
     "typescript": "~2.0.0",
-    "zone.js": "^0.7.6"
+    "zone.js": "^0.7.6",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "@angular/cli": "1.0.0-rc.0",
@@ -77,5 +80,6 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.4.2",
     "typescript": "~2.0.0"
-  }
+  },
+  "snyk": true
 }
